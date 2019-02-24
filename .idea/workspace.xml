@@ -26,19 +26,7 @@
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/63.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
-              <folding>
-                <element signature="e#38#55#0" expanded="true" />
-              </folding>
+              <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -85,13 +73,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/68.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+            <state relative-caret-position="245">
+              <caret line="96" column="54" selection-start-line="96" selection-start-column="54" selection-end-line="96" selection-end-column="54" />
               <folding>
                 <element signature="e#38#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BinaryTree.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="194" column="51" selection-start-line="194" selection-start-column="51" selection-end-line="194" selection-end-column="51" />
+              <folding>
+                <element signature="e#38#57#0" expanded="true" />
+                <element signature="e#395#550#1" />
+                <element signature="e#1816#2067#0" />
+                <element signature="e#2073#2533#0" />
+                <element signature="e#2911#3599#0" />
+                <element signature="e#3604#4089#0" />
+                <element signature="e#4094#4176#0" />
+                <element signature="e#4181#4350#0" />
+                <element signature="e#4354#4401#0" />
               </folding>
             </state>
           </provider>
@@ -109,7 +117,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -158,7 +166,6 @@
         <option value="$PROJECT_DIR$/52.cpp" />
         <option value="$PROJECT_DIR$/53.cpp" />
         <option value="$PROJECT_DIR$/54.cpp" />
-        <option value="$PROJECT_DIR$/BinaryTree.cpp" />
         <option value="$PROJECT_DIR$/55.cpp" />
         <option value="$PROJECT_DIR$/56.cpp" />
         <option value="$PROJECT_DIR$/57.cpp" />
@@ -172,13 +179,15 @@
         <option value="$PROJECT_DIR$/64.cpp" />
         <option value="$PROJECT_DIR$/65.cpp" />
         <option value="$PROJECT_DIR$/66.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/67.cpp" />
-        <option value="$PROJECT_DIR$/68.cpp" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/BinaryTree.cpp" />
+        <option value="$PROJECT_DIR$/68.cpp" />
       </list>
     </option>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1280" />
@@ -240,30 +249,30 @@
       <updated>1550492674931</updated>
       <workItem from="1550492676531" duration="12906000" />
       <workItem from="1550562522394" duration="37869000" />
-      <workItem from="1551006211684" duration="1701000" />
+      <workItem from="1551006211684" duration="6911000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52476000" />
+    <option name="totallyTimeSpent" value="57686000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="730" extended-state="6" />
+    <frame x="0" y="24" width="1280" height="730" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49766356" visible="true" weight="0.25767368" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49766356" visible="true" weight="0.25767368" />
       <window_info id="Structure" order="1" sideWeight="0.50233644" side_tool="true" weight="0.2536349" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3291536" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3291536" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39968652" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3291536" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.3291536" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.3291536" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="CMake" order="12" />
@@ -450,26 +459,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BinaryTree.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="138" column="21" selection-start-line="138" selection-start-column="21" selection-end-line="138" selection-end-column="21" />
-          <folding>
-            <element signature="e#38#57#0" expanded="true" />
-            <element signature="e#103#127#1" />
-            <element signature="e#368#399#1" />
-            <element signature="e#391#726#0" />
-            <element signature="e#1820#1861#0" />
-            <element signature="e#2072#2141#0" />
-            <element signature="e#1879#2226#0" />
-            <element signature="e#2273#2305#0" />
-            <element signature="e#2860#2900#0" />
-            <element signature="e#3343#3373#0" />
-            <element signature="e#3715#3748#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/59.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -565,29 +554,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/67.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-104">
           <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
           <folding>
             <element signature="e#38#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/68.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-          <folding>
-            <element signature="e#38#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -606,6 +578,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryTree.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="194" column="51" selection-start-line="194" selection-start-column="51" selection-end-line="194" selection-end-column="51" />
+          <folding>
+            <element signature="e#38#57#0" expanded="true" />
+            <element signature="e#395#550#1" />
+            <element signature="e#1816#2067#0" />
+            <element signature="e#2073#2533#0" />
+            <element signature="e#2911#3599#0" />
+            <element signature="e#3604#4089#0" />
+            <element signature="e#4094#4176#0" />
+            <element signature="e#4181#4350#0" />
+            <element signature="e#4354#4401#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/68.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="96" column="54" selection-start-line="96" selection-start-column="54" selection-end-line="96" selection-end-column="54" />
+          <folding>
+            <element signature="e#38#63#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

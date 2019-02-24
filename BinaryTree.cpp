@@ -53,6 +53,8 @@ private:
 
         Position in_l(in.start, split_index);
         Position in_r(split_index+ 1, in.end);
+        cout<<"Cur: "<<pre.start<<"->"<<pre.end<<", "<<in.start<<"->"<<in.end<<"   "<<number_node_l<<endl;
+        cout<<"Left: "<<pre_l.start<<"->"<<pre_l.end<<", "<<in_l.start<<"->"<<in_l.end<<"   "<<number_node_l<<endl;
         root->lChild = buildBinaryTree(preorder, pre_l, inorder, in_l);
         root->rChild = buildBinaryTree(preorder, pre_r, inorder, in_r);
         return root;
@@ -79,6 +81,20 @@ private:
             res = false;
         return max(depth_l, depth_r) + 1;
     }
+
+    bool getNodePath(BinaryTreeNode* target, BinaryTreeNode* root, stack<BinaryTreeNode*>& res){
+        if(root == target){
+            res.push(root);
+            return true;
+        }
+        if(root == NULL)
+            return false;
+        bool l_res = getNodePath(target, root->lChild, res);
+        bool r_res = getNodePath(target, root->rChild, res);
+        if(l_res || r_res)
+            res.push(root);
+        return l_res || r_res;
+    }
 public:
     BinaryTreeNode* root = NULL;
     BinaryTree(vector<int> preorder, vector<int> inorder){
@@ -89,6 +105,9 @@ public:
             Position pre(0, preorder.size()), in(0, preorder.size());
             this->root = buildBinaryTree(preorder, pre, inorder, in);
         }
+    }
+    BinaryTree(BinaryTreeNode* x){
+        this->root = x;
     }
     void printTree(){
         // 以层次序遍历整棵树，并且打印
@@ -114,6 +133,7 @@ public:
                 cout<<endl;
             }
         }
+        cout<<endl;
     }
     vector<int> getInorder(){
         vector<int> res;
@@ -142,7 +162,38 @@ public:
         bool res = true;
         getIsBalancedCore(this->root, res);
         return res;
-
+    }
+    BinaryTreeNode* findNode(int v){
+        if(root == NULL)
+            return NULL;
+        if(root->val == v)
+            return root;
+        BinaryTree left(this->root->lChild);
+        BinaryTree right(this->root->rChild);
+        BinaryTreeNode* res = left.findNode(v);
+        if(res != NULL)
+            return res;
+        res = right.findNode(v);
+        return res;
+    }
+    bool isSearch(){
+        // 判断这棵树是不是搜索二叉树
+        if(this->root == NULL)
+            return true;
+        if(this->root->lChild != NULL && this->root->val < this->root->lChild->val){
+            return false;
+        }
+        if(this->root->rChild != NULL && this->root->val > this->root->rChild->val){
+            return false;
+        }
+        BinaryTree* left = new BinaryTree(this->root->lChild);
+        BinaryTree* right = new BinaryTree(this->root->rChild);
+        return left->isSearch() && right->isSearch();
+    }
+    stack<BinaryTreeNode*> findPath(BinaryTreeNode* target){
+        stack<BinaryTreeNode*> res;
+        this->getNodePath(target, this->root, res);
+        return res;
     }
 };
 //class Solution{
