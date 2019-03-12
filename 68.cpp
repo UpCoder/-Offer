@@ -108,6 +108,10 @@ public:
         }
         cout<<"Is Search BinaryTree?"<<binaryTree->isSearch()<<endl;
         FindParent::findParent(node1, node6, binaryTree, false);
+        int x = 0x7FFFFFFF;
+        cout<<x<<endl;
+        x <<= 1;
+        cout<<x<<endl;
 
     }
 };
