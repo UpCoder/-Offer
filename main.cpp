@@ -27,7 +27,9 @@
 //#include "66.cpp"
 //#include "67.cpp"
 //#include "68.cpp"
-#include "3.cpp"
+//#include "3.cpp"
+#include "21.cpp"
+//#include "quicksort.cpp"
 using namespace std;
 int main() {
     Solution::solution();
