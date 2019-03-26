@@ -1,4 +1,5 @@
 #include <iostream>
+#include <sstream>
 //#include "42.cpp"
 //#include "43.cpp"
 //#include "44.cpp"
@@ -28,8 +29,17 @@
 //#include "67.cpp"
 //#include "68.cpp"
 //#include "3.cpp"
-#include "21.cpp"
+//#include "21.cpp"
 //#include "quicksort.cpp"
+//#include "TheLastKNode.cpp"
+//#include "reverseList.cpp"
+//#include "mergedSortedList.cpp"
+//#include "7.cpp"
+//#include "9.cpp"
+//#include "11.cpp"
+//#include "12.cpp"
+//#include "14.cpp"
+#include "18.cpp"
 using namespace std;
 int main() {
     Solution::solution();
